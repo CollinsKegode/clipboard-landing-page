@@ -1,0 +1,457 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-size: 19px;
+    font-weight: 400;
+    text-decoration: none;
+    color: hsl(201, 11%, 66%);
+}
+
+.top-description,
+.bottom-description {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.top-description h2, p {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+}
+
+
+.buttons .ios,
+.buttons .mac {
+    align-items: center;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    height: 55px;
+    margin: 0 8px;
+    width: 226px;
+}
+
+.buttons .ios {
+    background-color: hsl(171, 66%, 44%);
+    border: 1px solid hsl(171, 68%, 58%);
+}
+
+.buttons .mac {
+    background-color: hsl(233, 100%, 69%);
+    border: 1px solid hsl(233, 100%, 69%);
+}
+
+.buttons .ios:hover {
+    background-color: hsl(171, 88%, 74%);
+    border: 1px solid hsl(171, 88%, 74%);
+}
+
+.buttons .mac:hover {
+    background-color: hsl(233, 81%, 80%);
+    border: 1px solid hsl(233, 81%, 80%);
+}
+
+.buttons .ios .button-text,
+.buttons .mac .button-text {
+  color: #fff; 
+  font-size: 16px;
+  font-weight: 600; 
+}
+
+h2 {
+    color: hsl(210, 10%, 33%);
+    font-size: 33px;
+    font-weight: 600;
+    line-height: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    max-width: auto;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.snippets,
+.access-clipboard {
+    margin-top: 100px;
+}
+
+.snippet-1 p {
+    margin: 0 300px;
+}
+
+.snippets .snippet-1,
+.access-clipboard .access-clipboard-1,
+.superchange-workflow .superchange-workflow-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.top {
+    background-image: url(images/bg-header-desktop.png);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.top .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 136px;
+    padding-bottom: 35px;
+}
+
+.snippets .snippet-2 {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-right: 200px;
+    padding-top: 40px;
+}
+.snippet-2 .snippet-image {
+  position: relative;
+  right: 50px;
+}
+
+.snippet-2 .snippet-image img {
+    height: 572px;
+    width: 752px;
+}
+
+.snippet-2 .snippets-side-content {
+    max-width: 333px;
+}
+
+.workflow-tools {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 182px 0px 182px; 
+}
+
+.workflow-tools .tool-1,
+.workflow-tools .tool-2,
+.workflow-tools .tool-3 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 331px;
+}
+
+.quick-search,
+.icloud-sync,
+.complete-history {
+    padding-top: 35px;
+    padding-bottom: 35px;
+    justify-content: center;
+    text-align: center;
+}
+
+.quick-search {
+    padding-top: 0px;
+}
+
+h3 {
+    color: hsl(210, 10%, 33%);
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+}
+.icloud-sync h3,
+.complete-history h3,
+.quick-search h3 {
+    text-align: left;
+}
+
+.quick-search p,
+.icloud-sync p,
+.complete-history p {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 0;
+    text-align: left;
+}
+
+.access-clipboard .access-clipboard-2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.access-clipboard .access-clipboard-2 img {
+    width: 905px;
+    height: 575px;
+}
+
+.superchange-workflow .superchange-workflow-2 .superchange-tools {
+   align-items: baseline; 
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+   padding-left: 182px;
+   padding-right: 182px;
+}
+
+.workflow-tools .tool-1
+.workflow-tools .tool-2
+.workflow-tools .tool-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 331px;
+}
+
+.workflow-tools h3 {
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    font-weight: 600;
+    padding-top: 45px;
+}
+.workflow-tools .tool-1 {
+    padding-top: 20px;
+}
+.workflow-tools p {
+    color: hsl(201, 11%, 66%);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.adverts {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 162px 182px 165px 182px;
+}
+
+.adverts .advert-1,
+.adverts .advert-2,
+.adverts .advert-3,
+.adverts .advert-4,
+.adverts .advert-5 {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.clipboard-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #F5F6F8;
+    padding: 38px 182px;
+    margin-top: 145px;
+}
+
+.clipboard-footer .right-side,
+.clipboard-footer .left-side {
+    display: flex;
+    flex-direction: row;
+}
+
+.clipboard-footer .left-side .footer-logo {
+    padding: 20px;
+}
+
+
+.clipboard-footer .left-side .footer-logo img {
+    width: 56px;
+    height: 56px;
+}
+
+.clipboard-footer .footer-sections {
+    display: flex;
+    flex-direction: row;
+}
+
+.clipboard-footer .footer-sections .section-1,
+.clipboard-footer .footer-sections .section-2,
+.clipboard-footer .footer-sections .section-3 {
+   padding: 0 80px;
+   display: flex;
+   flex-direction: column;
+}
+
+.clipboard-footer .footer-sections .section-1 a,
+.clipboard-footer .footer-sections .section-2 a,
+.clipboard-footer .footer-sections .section-3 a {
+    color: hsl(201, 11%, 66%);
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.clipboard-footer .right-side .facebook,
+.clipboard-footer .right-side .twitter,
+.clipboard-footer .right-side .instagram {
+    padding-right: 25px;
+}
+
+@media screen and (max-width: 768px) {
+    
+    .top {
+        background-image: url(images/bg-header-mobile.png);
+    }
+
+    .top-description h2 {
+        font-size: 24px;
+    }
+    .top-description p { 
+        font-size: 13px;
+    }
+
+    .buttons {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .buttons .ios,
+    .buttons .mac {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .buttons .ios .button-text,
+    .buttons .mac .button-text {
+        font-size: 12px;
+    }
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .snippet-1,
+    .access-clipboard-1 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .snippet-1 p {
+        width: 350px; 
+    }
+
+    .snippet-2 .snippets-side-content {
+        text-align: center;
+    }
+
+    .snippet-2 .snippet-image img {
+        height: 143px;
+        width: 188px;
+    }
+
+    .access-clipboard-2 .access-clipboard-image img {
+        width: 227px;
+        height: 144px;
+    }
+
+    .snippet-2 .snippet-image {
+        right: 0px;
+    }
+   
+    .snippets .snippet-2 {
+        flex-direction: column;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .workflow-tools {
+        align-items: center;
+        flex-direction: column;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    .tool-1,
+    .tool-2,
+    .tool-3 {
+        margin: 20px;
+    }
+
+    .tool-1 p,
+    .tool-2 p,
+    .tool-3 p {
+        font-size: 12px;
+    }
+
+    .adverts {
+        flex-direction: column;
+        justify-content: center;
+        padding: 100px 50px 100px 50px ;
+    }
+    
+    .adverts .advert-1,
+    .adverts .advert-2,
+    .adverts .advert-3,
+    .adverts .advert-4,
+    .adverts .advert-5 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .clipboard-footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        padding: 38px 50px;
+    }
+    .clipboard-footer .left-side,
+    .clipboard-footer .right-side {
+        flex-direction: column;
+     }
+
+     .clipboard-footer .right-side {
+        flex-direction: row;
+     }
+
+     .clipboard-footer .footer-sections {
+        flex-direction: column;
+     }
+
+     .clipboard-footer .footer-sections .section-1 a,
+     .clipboard-footer .footer-sections .section-2 a,
+     .clipboard-footer .footer-sections .section-3 a {
+        padding-top: 5px;
+        padding-bottom: 5px;
+     }
+
+    .facebook,
+    .twitter,
+    .instagram {
+        padding-top: 10px;
+    }
+
+
+}
+
